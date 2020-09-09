@@ -6,7 +6,7 @@ import trojan
 
 
 def run_trojan_r(hostlist, port):
-    lasthost = '220.134.194.210'
+    lasthost = ''
     print('hosts:', hostlist)
     while True:
         if isinstance(hostlist, (list, tuple)):
